@@ -1,0 +1,198 @@
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    margin-right: 100px;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*-------------- admin -------------------*/
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    background:  radial-gradient(#808080,#fff);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.main{
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.atas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.tabel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tabel1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: -1px 1px 20px 4px grey;
+    width: 1300px;
+    height: 60px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+.tabel1 a{
+    margin-left: 40px;
+}
+.tabel1 form{
+    margin-right: 40px;
+}
+.tabel2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: -1px 1px 20px 4px grey;
+    width: 1300px;
+    height: auto;
+    background-color: white;
+}
+tr{
+    align-items: center;
+}
+/*-------------- tambah -------------------*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    background:  radial-gradient(#808080,#fff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.judul{
+    display: flex;
+    justify-content: center;
+}
+.isi{
+    display: flex;
+    justify-content: center;
+}
+.isi input{
+    border: 2px;
+    width: 420px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    width: 600px;
+    align-items: center;
+    font-size: 20px;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 4;
+}
+.tombol{
+    justify-content: center;
+}
+.input form{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 100px;
+    height: 20px;
+}
+/*-------------- ubah -------------------*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    background:  radial-gradient(#808080,#fff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.judul{
+    display: flex;
+    justify-content: center;
+}
+.isi{
+    display: flex;
+    justify-content: center;
+}
+.isi input{
+    border: 2px;
+    width: 420px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    width: 600px;
+    align-items: center;
+    font-size: 20px;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 4;
+}
+.tombol{
+    justify-content: center;
+}
+.input form{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 100px;
+    height: 20px;
+}
